@@ -1,0 +1,29 @@
+{
+    "name": "terenbro/module-category-banner",
+    "version": "1.0.0",
+    "description": "Category Banner Attribute",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-catalog": "104.0.*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Terenbro\\CategoryBanner\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Denys",
+            "email": "denys.fesenko@terenbro.com",
+            "homepage": "https://terenbro.com/",
+            "role": "Developer"
+        }
+    ]
+}
